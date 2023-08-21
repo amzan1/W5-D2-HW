@@ -1,0 +1,84 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+body{
+  background-color: #F5F6FA;
+
+}
+.navbar{
+  background-color: #4E3797;
+}
+.footer{
+  background-color: #4E3797;
+  height: 350px;
+}
+.footer ul li a,.footer p{
+  color: white;
+
+}
+.navbar a{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.navbar a:hover{
+  color:#91D8DB;
+}
+.card{
+  width: 22rem;
+  height: 20rem;
+  padding: 10px;
+  border: none;
+  border-right:15px solid #91D8DB;
+
+}
+.type{
+  color: #91D8DB;
+  font-size: 20px;
+}
+.info{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.info p{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.btn{
+  
+  border: none;
+ 
+}
+.active{
+  display: inline-block;
+    width: 96px;
+    height: 28px;
+    color: #B787F5;
+    background-color:white;
+    border:1px solid #B787F5;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+.active:hover{
+  background-color: #B787F5;
+  color: white;}
+  .notActive{
+    display: inline-block;
+    width: 96px;
+    height: 28px;
+    color: #B1BAC8;
+    background-color:#EBEEF2;
+    border:1px solid #B1BAC8;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+  }
+/* .cards{
+  display: flex;
+
+} */
